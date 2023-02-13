@@ -1,0 +1,26 @@
+NEXTAUTH_URL=http://localhost:4002
+
+# You can use openssl to generate a random 32 character key: openssl rand -base64 32
+NEXTAUTH_SECRET=ElmP30/lRzbEimqxiDSlFx9kWk78l3DEwWSqSc8kGUU=
+
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_FROM=
+
+# grab url from Jackson repo
+DATABASE_URL=postgres://postgres:postgres@localhost:5432/postgres
+
+APP_URL=http://localhost:4002
+
+SVIX_URL=https://api.eu.svix.com
+SVIX_API_KEY=
+
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+FineGrainedAccess=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
